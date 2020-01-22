@@ -15,14 +15,18 @@ This project involves integration between Google Dialoflow, GMaps, and Uber sand
 ```
 
 ## UberDialogflow
-This section contains exported model of Googld dialogflow, it requiore to UPDATE WSO2ESB API path in ``` ./UberDialogflow/agend.json```. Please substitue **UPDATE_WSO2ESB_API_SERVER_URL**.
+This section contains exported model of Googld dialogflow, it requiore to UPDATE WSO2ESB API path in ``` ./UberDialogflow/agend.json```. 
+> Please substitue **UPDATE_WSO2ESB_API_SERVER_URL**.
 
 
 
 ## UBEREsbConfig_CAPP_1.0.0
 This section contains WSO2 ESB API specs and implementation. This API is responsible to make requests to Google Maps and UBer sandbox API's for various operations requested by Google Dialogflow.
 
-This section requires you to import few Google and Uber certificates to trust store for secure API communication. Please substiture the values of **UPDATE_GOOGLE_TOKEN_HERE** and **UPDATE_UBER_TOKEN_HERE** in the file ``` ./UBEREsbConfig_CAPP_1.0.0/UBERApi_1.0.0/UBERApi-1.0.0.xml```.
+This section requires you to import few Google and Uber certificates to trust store for secure API communication. 
+> Please substiture the values of **UPDATE_GOOGLE_TOKEN_HERE** and **UPDATE_UBER_TOKEN_HERE** in the file ``` ./UBEREsbConfig_CAPP_1.0.0/UBERApi_1.0.0/UBERApi-1.0.0.xml```.
+
+---
 
 |Token|Description| Obtain|
 |--------|--------------------------------------------------|-----------------------------|
