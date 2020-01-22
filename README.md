@@ -32,3 +32,20 @@ This section requires you to import few Google and Uber certificates to trust st
 |--------|--------------------------------------------------|-----------------------------|
 |UPDATE_UBER_TOKEN_HERE| This is an API token to be used for UBER sandbox enrionment| Please check Uber developer console [here](https://developer.uber.com/docs/riders/guides/authentication/introduction)|
 |UPDATE_GOOGLE_TOKEN_HERE| This is an Google API token which need to be generated against any project which you will create in GCP console| Please create a project on GCP and generate API token against GMAP and Google location services, click [here](https://console.cloud.google.com/home/dashboard)|
+
+
+## End to End Connectivity
+This is an end to end connectivity to understand how the user intract with Google dialogflow to Uber.
+
+![](.attachments/end-to-end-flow.png)
+
+
+
+
+## Uber dashboard
+![](.attachments/uber-dashboard.png)
+
+# References
+- https://dialogflow.com/
+- https://console.cloud.google.com/home/dashboard
+- https://developer.uber.com/docs/riders/guides/authentication/introduction
