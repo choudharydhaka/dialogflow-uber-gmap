@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="UBEREsbConfig_CAPP" version="1.0.0" type="carbon/application">
+        <dependency artifact="Google_Get_Formated_Address_SEQ" version="1.0.0" include="true" serverRole="EnterpriseServiceBus"/>
+        <dependency artifact="Estimate_IN" version="1.0.0" include="true" serverRole="EnterpriseServiceBus"/>
+        <dependency artifact="UBERApi" version="1.0.0" include="true" serverRole="EnterpriseServiceBus"/>
+        <dependency artifact="Google_API_EP" version="1.0.0" include="true" serverRole="EnterpriseServiceBus"/>
+        <dependency artifact="UBER_EP" version="1.0.0" include="true" serverRole="EnterpriseServiceBus"/>
+        <dependency artifact="Google_GET_LatLong_SEQ" version="1.0.0" include="true" serverRole="EnterpriseServiceBus"/>
+        <dependency artifact="Estimate_OUT" version="1.0.0" include="true" serverRole="EnterpriseServiceBus"/>
+        <dependency artifact="UBER_GET_Product_ID" version="1.0.0" include="true" serverRole="EnterpriseServiceBus"/>
+    </artifact>
+</artifacts>

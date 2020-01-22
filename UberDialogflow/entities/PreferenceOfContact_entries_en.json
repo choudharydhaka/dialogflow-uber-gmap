@@ -1,0 +1,33 @@
+[
+  {
+    "value": "mobile",
+    "synonyms": [
+      "mobile",
+      "cell phone",
+      "on my mobile",
+      "phone"
+    ]
+  },
+  {
+    "value": "email",
+    "synonyms": [
+      "email",
+      "mail",
+      "outlook"
+    ]
+  },
+  {
+    "value": "emotion",
+    "synonyms": [
+      "emotion",
+      "emotions",
+      "emotional",
+      "sentiments",
+      "sentiment",
+      "records",
+      "record",
+      "feeling",
+      "feel"
+    ]
+  }
+]

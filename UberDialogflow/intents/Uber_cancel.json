@@ -1,0 +1,47 @@
+{
+  "id": "3d7e9f8e-66fe-4d65-b0e6-5def5d35050b",
+  "name": "Uber_cancel",
+  "auto": true,
+  "contexts": [
+    "uber_booked"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "cancelUber",
+      "affectedContexts": [
+        {
+          "name": "uber_booked",
+          "parameters": {},
+          "lifespan": -1
+        },
+        {
+          "name": "uber_cancel",
+          "parameters": {},
+          "lifespan": -1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-in",
+          "speech": "Something went wrong! you will have to pay it."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Something went wrong! you will have to pay it."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539246248,
+  "fallbackIntent": false,
+  "events": []
+}

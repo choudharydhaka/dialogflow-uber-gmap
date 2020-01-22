@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/services/uber" name="UBERApi" xmlns="http://ws.apache.org/ns/synapse">
+  <resource methods="POST GET" protocol="http">
+    <inSequence>
+      <property name="Google_API_KEY" scope="default" type="STRING" value="UPDATE_GOOGLE_TOKEN_HERE"/>
+      <property expression="json-eval($.queryResult.intent.displayName)"
+        name="UBER_Intent" scope="default" type="STRING"/>
+      <property name="Uber_Token" scope="default" type="STRING" value="Bearer UPDATE_UBER_TOKEN_HERE"/>
+      <sequence key="Estimate_IN"/>
+    </inSequence>
+    <outSequence>
+      <sequence key="Estimate_OUT"/>
+    </outSequence>
+    <faultSequence/>
+  </resource>
+</api>

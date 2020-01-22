@@ -1,0 +1,62 @@
+[
+  {
+    "id": "aadfd181-dc96-41a6-975c-756ec3972fb0",
+    "data": [
+      {
+        "text": "Uber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1539163524
+  },
+  {
+    "id": "509167fe-72de-44a4-9a8b-ccaadb21c126",
+    "data": [
+      {
+        "text": "Hey Uber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539163524
+  },
+  {
+    "id": "fd8db6a3-c3f8-44ba-8c8b-b2c5afe3e323",
+    "data": [
+      {
+        "text": "Hi Uber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539163524
+  },
+  {
+    "id": "a8fd46ed-5ae8-42cf-9857-5be40dbb3523",
+    "data": [
+      {
+        "text": "I want to book a cab",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539160835
+  },
+  {
+    "id": "050d4242-1e18-438c-8e13-197e824217be",
+    "data": [
+      {
+        "text": "book an Uber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539125910
+  }
+]

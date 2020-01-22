@@ -1,0 +1,73 @@
+{
+  "id": "5408869f-2240-4e61-b2c7-0c83cc2bcd91",
+  "name": "Uber_from",
+  "auto": true,
+  "contexts": [
+    "uber_to"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "uber_to",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "Uber_from_to",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "77b643af-cc80-4566-abbc-e72c0b33e41f",
+          "required": true,
+          "dataType": "@Uber_FROM",
+          "name": "from",
+          "value": "$from",
+          "prompts": [
+            {
+              "lang": "en-in",
+              "value": "Please provide the pickup location."
+            },
+            {
+              "lang": "en",
+              "value": "Please provide the pickup location."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "910cfc0d-d0cc-4750-8ddf-ec113c35a884",
+          "required": false,
+          "dataType": "@Uber_FROM_TO",
+          "name": "Uber_FROM_TO",
+          "value": "$Uber_FROM_TO",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-in",
+          "speech": "Do you wan to estimate the  fare?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you wan to estimate the  fare?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539233690,
+  "fallbackIntent": false,
+  "events": []
+}

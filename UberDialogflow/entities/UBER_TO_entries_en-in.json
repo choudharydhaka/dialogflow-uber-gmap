@@ -1,0 +1,23 @@
+[
+  {
+    "value": "@sys.address:address",
+    "synonyms": [
+      "to",
+      "destination",
+      "drop off",
+      "dropoff"
+    ]
+  },
+  {
+    "value": "DIA office",
+    "synonyms": [
+      "DIA office"
+    ]
+  },
+  {
+    "value": "45 Pipitea street",
+    "synonyms": [
+      "45 Pipitea street"
+    ]
+  }
+]

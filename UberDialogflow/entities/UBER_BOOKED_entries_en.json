@@ -1,0 +1,29 @@
+[
+  {
+    "value": "request_id",
+    "synonyms": [
+      "request_id"
+    ]
+  },
+  {
+    "value": "status",
+    "synonyms": [
+      "status"
+    ]
+  },
+  {
+    "value": "confirmed",
+    "synonyms": [
+      "confirmed",
+      "yes",
+      "confirm"
+    ]
+  },
+  {
+    "value": "book",
+    "synonyms": [
+      "book",
+      "booking"
+    ]
+  }
+]

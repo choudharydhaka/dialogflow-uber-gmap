@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="Estimate_OUT" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+  <log level="full"/>
+  <log level="full"/>
+  <payloadFactory media-type="json">
+    <format>{
+                                                  "fulfillmentText": "Uber will charge you $1",
+
+                                                  "source": "wso2carbon"
+                                                }</format>
+    <args>
+      <arg evaluator="json" expression="$.fare.display"/>
+    </args>
+  </payloadFactory>
+  <log level="full"/>
+  <respond/>
+</sequence>

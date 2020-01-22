@@ -1,0 +1,102 @@
+[
+  {
+    "id": "8ddd4a38-ed63-486b-8c12-be2c1b7d1390",
+    "data": [
+      {
+        "text": "where is uber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1539236722
+  },
+  {
+    "id": "20c1f18e-05be-408d-88a5-a79d5044df3e",
+    "data": [
+      {
+        "text": "can i get my ride ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539236722
+  },
+  {
+    "id": "e846956a-e563-4fc0-923c-c3fce772485e",
+    "data": [
+      {
+        "text": "can i get my uber ride ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539236722
+  },
+  {
+    "id": "03dc2c49-1a54-42fe-a2ba-ebaa835e3839",
+    "data": [
+      {
+        "text": "status",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539234485
+  },
+  {
+    "id": "6666c3ee-d1f3-43e5-9ae2-9c9f9a423cc8",
+    "data": [
+      {
+        "text": "uber ",
+        "userDefined": false
+      },
+      {
+        "text": "status",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539234485
+  },
+  {
+    "id": "2ddd8814-d843-4939-be9a-e0aba5f53afb",
+    "data": [
+      {
+        "text": "it been ages",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539234485
+  },
+  {
+    "id": "06b0f0f1-378a-4189-9ce1-57c3c475eaa3",
+    "data": [
+      {
+        "text": "where is my uber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539234485
+  }
+]

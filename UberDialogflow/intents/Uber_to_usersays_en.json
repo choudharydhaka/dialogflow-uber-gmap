@@ -1,0 +1,101 @@
+[
+  {
+    "id": "e4490927-9951-4a3c-a45f-d33a91f27d2b",
+    "data": [
+      {
+        "text": "drop off would be ",
+        "userDefined": false
+      },
+      {
+        "text": "45 Pipitea street",
+        "alias": "to",
+        "meta": "@UBER_TO",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539162654
+  },
+  {
+    "id": "b7d53f75-23b6-415c-a159-3b371babf9fc",
+    "data": [
+      {
+        "text": "I want to book an uber to ",
+        "userDefined": false
+      },
+      {
+        "text": "DIA office",
+        "alias": "to",
+        "meta": "@UBER_TO",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539161000
+  },
+  {
+    "id": "55e1d5eb-379b-4531-8381-928779584b87",
+    "data": [
+      {
+        "text": "drop off location is ",
+        "userDefined": false
+      },
+      {
+        "text": "45 Pipitea street",
+        "alias": "to",
+        "meta": "@UBER_TO",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539161632
+  },
+  {
+    "id": "a6e9c7f8-c73a-4529-81d1-b6612e639978",
+    "data": [
+      {
+        "text": "Please book an uber to ",
+        "userDefined": false
+      },
+      {
+        "text": "DIA office",
+        "alias": "to",
+        "meta": "@UBER_TO",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1539161000
+  },
+  {
+    "id": "8908cfec-e20d-4ae9-8a96-a4722919b4e3",
+    "data": [
+      {
+        "text": "I want to book an uber ",
+        "userDefined": false
+      },
+      {
+        "text": "from Datacom",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "DIA office",
+        "alias": "to",
+        "meta": "@UBER_TO",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539161000
+  }
+]

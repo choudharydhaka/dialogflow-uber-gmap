@@ -1,0 +1,62 @@
+[
+  {
+    "id": "895e5c12-e57c-4575-83a1-17caf68a5c46",
+    "data": [
+      {
+        "text": "i booked by mistake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539233903
+  },
+  {
+    "id": "56e70b44-cdee-43c5-a2a9-5fbb7ceb1822",
+    "data": [
+      {
+        "text": "mood changed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539233903
+  },
+  {
+    "id": "895184cd-8785-4379-9095-1b92f9576585",
+    "data": [
+      {
+        "text": "please cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539233903
+  },
+  {
+    "id": "67d58781-1ad1-4758-a435-0caaebf4aaa0",
+    "data": [
+      {
+        "text": "cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539233903
+  },
+  {
+    "id": "4a5fd94e-b79c-4a6c-844d-4097e5a74978",
+    "data": [
+      {
+        "text": "i want to cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539233903
+  }
+]

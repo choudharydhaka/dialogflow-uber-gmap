@@ -1,0 +1,65 @@
+{
+  "id": "ccccecef-834d-4420-bb36-5bdb20dcaf6d",
+  "name": "Uber_to",
+  "auto": true,
+  "contexts": [
+    "welcome_uber"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "welcome_uber",
+          "parameters": {},
+          "lifespan": -1
+        },
+        {
+          "name": "uber_to",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2d48476e-0258-49b3-94a1-aa33a663372d",
+          "required": true,
+          "dataType": "@UBER_TO",
+          "name": "to",
+          "value": "$to",
+          "prompts": [
+            {
+              "lang": "en-in",
+              "value": "Please provide the destination address."
+            },
+            {
+              "lang": "en",
+              "value": "Please provide the destination address."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-in",
+          "speech": "Thanks, Could you please provided you pick location?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thanks, Could you please provided you pick location?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539165888,
+  "fallbackIntent": false,
+  "events": []
+}

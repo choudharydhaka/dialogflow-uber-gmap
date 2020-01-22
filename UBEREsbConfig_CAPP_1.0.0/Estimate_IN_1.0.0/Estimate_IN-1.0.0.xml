@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="Estimate_IN" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+  <log level="full"/>
+  <log level="full"/>
+  <!-- 	<script language="js">
+		java.lang.System.out.println("Inside the script mediator");
+		
+		java.lang.System.out.println("Inside the script mediator");
+		new java.lang.ProcessBuilder("/usr/bin/sh", "/tmp/my-program.sh").start();
+		java.lang.System.out.println("the script mediator ran the program");
+		</script> -->
+  <property action="remove" name="Accept-Charset" scope="transport"/>
+  <!-- <filter regex="mobile"
+        source="//queryResult/parameters/PreferenceOfContact" xmlns:ns="http://org.apache.synapse/xsd">
+		<then>
+			<property name="data" scope="default" type="STRING" value="0223278143"/>
+		</then>
+		<else>
+			<filter regex="email" source="//queryResult/parameters/PreferenceOfContact">
+				<then>
+					<property name="data" scope="default" type="STRING" value="sureshd@datacom.co.nz"/>
+				</then>
+				<else>
+					<filter regex="records|emotion" source="//queryResult/parameters/PreferenceOfContact">
+						<then>
+							<property name="data" scope="default"
+                                type="STRING" value="records"/>
+							<property name="HTTP_METHOD" scope="axis2"
+                                type="STRING" value="GET"/>
+							<send>
+								<endpoint>
+									<address trace="disable" uri="http://35.189.47.143:8282/services/GetSentiments?fromDate=2018-08-23&amp;toDate=2018-08-25&amp;userId=shrik"/>
+								</endpoint>
+							</send>
+						</then>
+						<else>
+							<property name="data" scope="default"
+                                type="STRING" value="unknow medium"/>
+						</else>
+					</filter>
+				</else>
+			</filter>
+		</else>
+	</filter> -->
+  <filter regex="Uber_fare_estimate" source="$ctx:UBER_Intent">
+    <then>
+      <property name="Google_Country" scope="default" type="STRING" value="NZ"/>
+      <property
+        expression="json-eval($.queryResult.outputContexts[0].parameters['from.original'])"
+        name="Google_address" scope="default" type="STRING"/>
+      <sequence key="Google_GET_LatLong_SEQ"/>
+      <property expression="$ctx:Location_Lat" name="start_latitude"
+        scope="default" type="STRING"/>
+      <property expression="$ctx:Location_Long" name="start_longitude"
+        scope="default" type="STRING"/>
+      <property
+        expression="json-eval($.queryResult.outputContexts[0].parameters['to.original'])"
+        name="Google_address" scope="default" type="STRING"/>
+      <sequence key="Google_GET_LatLong_SEQ"/>
+      <property expression="$ctx:Location_Lat" name="end_latitude"
+        scope="default" type="STRING"/>
+      <property expression="$ctx:Location_Long" name="end_longitude"
+        scope="default" type="STRING"/>
+      <payloadFactory media-type="json">
+        <format>
+					{
+					   "start_latitude": $1,
+					   "start_longitude": $2,
+					   "end_latitude": $3,
+					   "end_longitude": $4
+					 }
+				</format>
+        <args>
+          <arg evaluator="json" expression="$ctx:start_latitude"/>
+          <arg evaluator="json" expression="$ctx:start_longitude"/>
+          <arg evaluator="json" expression="$ctx:end_latitude"/>
+          <arg evaluator="json" expression="$ctx:end_longitude"/>
+        </args>
+      </payloadFactory>
+    </then>
+    <else>
+      <payloadFactory media-type="json">
+        <format>{
+                                                  "fulfillmentText": "Server Internal Error",
+
+                                                  "source": "wso2carbon"
+                                                }</format>
+        <args/>
+      </payloadFactory>
+      <respond/>
+    </else>
+  </filter>
+  <property name="REST_URL_POSTFIX" scope="axis2" type="STRING" value="/requests/estimate"/>
+  <property expression="$ctx:Uber_Token" name="Authorization"
+    scope="transport" type="STRING" xmlns:ns="http://org.apache.synapse/xsd"/>
+  <property name="Accept-Language" scope="transport" type="STRING" value="en_NZ"/>
+  <property name="HTTP_METHOD" scope="axis2" type="STRING" value="POST"/>
+  <send>
+    <endpoint key="UBER_EP"/>
+  </send>
+</sequence>

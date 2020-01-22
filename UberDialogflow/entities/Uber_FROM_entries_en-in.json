@@ -1,0 +1,41 @@
+[
+  {
+    "value": "@sys.address:address",
+    "synonyms": [
+      "from",
+      "pickup",
+      "pick up",
+      "current location"
+    ]
+  },
+  {
+    "value": "86 Jervios quay",
+    "synonyms": [
+      "86 Jervios quay"
+    ]
+  },
+  {
+    "value": "Datacom",
+    "synonyms": [
+      "Datacom"
+    ]
+  },
+  {
+    "value": "68-86 Jervois quay",
+    "synonyms": [
+      "68-86 Jervois quay"
+    ]
+  },
+  {
+    "value": "68 jervois quay",
+    "synonyms": [
+      "68 jervois quay"
+    ]
+  },
+  {
+    "value": "86 jervois quay",
+    "synonyms": [
+      "86 jervois quay"
+    ]
+  }
+]

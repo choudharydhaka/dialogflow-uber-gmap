@@ -1,0 +1,55 @@
+{
+  "id": "ad7b6d57-9997-40dc-a318-2e82910123cd",
+  "name": "Uber_book",
+  "auto": true,
+  "contexts": [
+    "uber_fare"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "uber_fare",
+          "parameters": {},
+          "lifespan": -1
+        },
+        {
+          "name": "uber_booked",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "928676f7-6da5-41d2-84c6-5ff6824067c0",
+          "required": false,
+          "dataType": "@UBER_BOOKED",
+          "name": "UBER_BOOKED",
+          "value": "$UBER_BOOKED",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-in",
+          "speech": "Something went wrong, please try again!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Something went wrong, please try again!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539233771,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="UBER_GET_Product_ID" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+  <property name="REST_URL_POSTFIX" scope="axis2" type="STRING" value="/products?latitude=-41.3276&amp;longitude=174.8076"/>
+  <property name="Authorization" scope="transport" type="STRING" value="Bearer JA.VUNmGAAAAAAAEgASAAAABwAIAAwAAAAAAAAAEgAAAAAAAAG8AAAAFAAAAAAADgAQAAQAAAAIAAwAAAAOAAAAkAAAABwAAAAEAAAAEAAAAK6_9ICS4qAdsRGRjgZ_pxNsAAAABEqwcs88VHQ3B3jk3HWuGxRIA3MBSQuP-C3sySME9Rw3KtSEsiK_MlgnoE8UWi3WjafrUVmO1VqmToLQ7GPGmgv3FVAN74iWVjFtyT7d9qL2XbTdJirYdZOoPzNW7AWQoTWuyizgI_L0mbXBDAAAALGEBY96mh362s9M9yQAAABiMGQ4NTgwMy0zOGEwLTQyYjMtODA2ZS03YTRjZjhlMTk2ZWU"/>
+  <property name="Accept-Language" scope="transport" type="STRING" value="en_NZ"/>
+  <call>
+    <endpoint key="UBER_EP"/>
+  </call>
+  <property expression="json-eval($.products[0].product_id)"
+    name="UBER_GET_Product_ID" scope="axis2" type="STRING"/>
+</sequence>

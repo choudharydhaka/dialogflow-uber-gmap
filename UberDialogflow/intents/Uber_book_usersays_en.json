@@ -1,0 +1,102 @@
+[
+  {
+    "id": "9aabf8fd-b995-4b1f-b24d-dab70f859370",
+    "data": [
+      {
+        "text": "book",
+        "alias": "UBER_BOOKED",
+        "meta": "@UBER_BOOKED",
+        "userDefined": false
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539233654
+  },
+  {
+    "id": "27e470d0-75da-436d-8863-f2607461e7a1",
+    "data": [
+      {
+        "text": "yes",
+        "alias": "UBER_BOOKED",
+        "meta": "@UBER_BOOKED",
+        "userDefined": true
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539233654
+  },
+  {
+    "id": "f9a54eb0-03f2-4dde-8e94-c8781db2dba7",
+    "data": [
+      {
+        "text": "yes",
+        "alias": "UBER_BOOKED",
+        "meta": "@UBER_BOOKED",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539224644
+  },
+  {
+    "id": "a7bff9b6-9759-47cc-a3c7-057fe1c3e1bd",
+    "data": [
+      {
+        "text": "i confirm the ",
+        "userDefined": false
+      },
+      {
+        "text": "booking",
+        "alias": "UBER_BOOKED",
+        "meta": "@UBER_BOOKED",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539224644
+  },
+  {
+    "id": "37cf4185-cf31-4e51-81e2-16b0029082a5",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "book",
+        "alias": "UBER_BOOKED",
+        "meta": "@UBER_BOOKED",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539224644
+  },
+  {
+    "id": "62301dd0-5a7d-4005-8b1f-bfc67e9a6b4a",
+    "data": [
+      {
+        "text": "book",
+        "alias": "UBER_BOOKED",
+        "meta": "@UBER_BOOKED",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539224644
+  }
+]

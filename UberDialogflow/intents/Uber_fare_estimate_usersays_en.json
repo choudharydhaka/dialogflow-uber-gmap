@@ -1,0 +1,44 @@
+[
+  {
+    "id": "e68e56fc-9937-443a-a7e2-323dcbc984f4",
+    "data": [
+      {
+        "text": "definitely",
+        "alias": "UBER_BOOKED",
+        "meta": "@UBER_BOOKED",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1539223905
+  },
+  {
+    "id": "4a138217-775a-46b3-a467-c457fe405c37",
+    "data": [
+      {
+        "text": "yes",
+        "alias": "UBER_BOOKED",
+        "meta": "@UBER_BOOKED",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539223905
+  },
+  {
+    "id": "9b6dbc4d-1f6b-4fe1-af91-a5f6602ad9c7",
+    "data": [
+      {
+        "text": "yes, please",
+        "alias": "UBER_BOOKED",
+        "meta": "@UBER_BOOKED",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539223905
+  }
+]

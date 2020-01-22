@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint name="Google_API_EP" xmlns="http://ws.apache.org/ns/synapse">
+  <address trace="disable" uri="https://maps.googleapis.com/maps/api"/>
+</endpoint>

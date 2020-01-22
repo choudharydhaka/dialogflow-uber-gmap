@@ -1,0 +1,47 @@
+{
+  "id": "47928c7f-a83b-440d-ba47-542f464a5cb9",
+  "name": "Uber_status",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getUberStatus",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2aa84b25-e1bf-4468-bf05-d242dec79781",
+          "required": false,
+          "dataType": "@UBER_BOOKED",
+          "name": "UBER_BOOKED",
+          "value": "$UBER_BOOKED",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-in",
+          "speech": "lol... no status"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "lol... no status"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539246594,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_GET_UBER_STATUS"
+    }
+  ]
+}

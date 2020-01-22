@@ -1,0 +1,27 @@
+[
+  {
+    "value": "@UBER_FROM:UBER_FROM",
+    "synonyms": [
+      "@UBER_FROM"
+    ]
+  },
+  {
+    "value": "@UBER_TO:UBER_TO ",
+    "synonyms": [
+      "@UBER_TO"
+    ]
+  },
+  {
+    "value": "isEstimate",
+    "synonyms": [
+      "yes",
+      "definately"
+    ]
+  },
+  {
+    "value": "definitely",
+    "synonyms": [
+      "definitely"
+    ]
+  }
+]

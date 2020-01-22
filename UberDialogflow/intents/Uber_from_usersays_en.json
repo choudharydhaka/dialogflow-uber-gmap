@@ -1,0 +1,170 @@
+[
+  {
+    "id": "2a68a9a9-5a0f-4400-a83f-70db2755879d",
+    "data": [
+      {
+        "text": "pickup",
+        "alias": "Uber_FROM_TO",
+        "meta": "@Uber_FROM_TO",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "datacom",
+        "alias": "from",
+        "meta": "@Uber_FROM",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539221938
+  },
+  {
+    "id": "5f0991d8-5d4c-4bfe-bc5e-0b203f42ee73",
+    "data": [
+      {
+        "text": "pickup",
+        "alias": "Uber_FROM_TO",
+        "meta": "@Uber_FROM_TO",
+        "userDefined": false
+      },
+      {
+        "text": " would be ",
+        "userDefined": false
+      },
+      {
+        "text": "68 jervois quay",
+        "alias": "from",
+        "meta": "@Uber_FROM",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539221938
+  },
+  {
+    "id": "443c9a69-bd3b-43fc-88c0-7a6eac7fec45",
+    "data": [
+      {
+        "text": "pickup",
+        "alias": "Uber_FROM_TO",
+        "meta": "@Uber_FROM_TO",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "68 jervois quay",
+        "alias": "from",
+        "meta": "@Uber_FROM",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539221938
+  },
+  {
+    "id": "7dfdcb5e-de20-48ec-8f9e-4d6fae35f136",
+    "data": [
+      {
+        "text": "pickup",
+        "alias": "Uber_FROM_TO",
+        "meta": "@Uber_FROM_TO",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "86 jervois quay",
+        "alias": "from",
+        "meta": "@Uber_FROM",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539221938
+  },
+  {
+    "id": "66e67edd-3952-4fc3-85bf-cdf136f10bd0",
+    "data": [
+      {
+        "text": "my pick up would be ",
+        "userDefined": false
+      },
+      {
+        "text": "86 Jervios quay",
+        "alias": "from",
+        "meta": "@Uber_FROM",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539221938
+  },
+  {
+    "id": "2d40c270-3a6d-4254-b760-7096c524bb5f",
+    "data": [
+      {
+        "text": "pickup is ",
+        "userDefined": false
+      },
+      {
+        "text": "86 Jervios quay",
+        "alias": "from",
+        "meta": "@Uber_FROM",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539163872
+  },
+  {
+    "id": "1f05d34a-accd-4698-9900-5b6506c7269d",
+    "data": [
+      {
+        "text": "my pickup location is ",
+        "userDefined": false
+      },
+      {
+        "text": "68-86 Jervois quay",
+        "alias": "from",
+        "meta": "@Uber_FROM",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539166278
+  },
+  {
+    "id": "a8d7d5cb-c059-4d87-b9cc-5cd3d7a332e5",
+    "data": [
+      {
+        "text": "Pickup would be ",
+        "userDefined": false
+      },
+      {
+        "text": "Datacom",
+        "alias": "from",
+        "meta": "@Uber_FROM",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1539163872
+  }
+]

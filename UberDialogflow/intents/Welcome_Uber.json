@@ -1,0 +1,44 @@
+{
+  "id": "434dbea2-1f0b-4993-8231-d6ce9b3489eb",
+  "name": "Welcome_Uber",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "actions.intent.Welcome_Uber",
+      "affectedContexts": [
+        {
+          "name": "welcome_uber",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Welcome to Uber Service, How may I help you?"
+        },
+        {
+          "type": 0,
+          "lang": "en-in",
+          "speech": "Welcome to Uber Service, How may I help you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539252347,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

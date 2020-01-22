@@ -1,0 +1,55 @@
+{
+  "id": "e064be49-d279-4b7e-ba09-d0a5dde009ab",
+  "name": "Uber_fare_estimate",
+  "auto": true,
+  "contexts": [
+    "Uber_from_to"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Uber_from_to",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "uber_fare",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e47582de-6e7d-46c0-ba29-1d60e5034a53",
+          "required": false,
+          "dataType": "@UBER_BOOKED",
+          "name": "UBER_BOOKED",
+          "value": "$UBER_BOOKED",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-in",
+          "speech": "Server Error Please try again!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Server Error Please try again!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539224502,
+  "fallbackIntent": false,
+  "events": []
+}
